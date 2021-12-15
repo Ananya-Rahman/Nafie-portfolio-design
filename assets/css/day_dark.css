@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.check_btn {
+    align-self: center;
+    padding-top: 1px;
+    ;
+}
+
+.check_btn input[type="checkbox"] {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.box .ball {
+    width: 30px;
+    height: 30px;
+    background-color: #ffc107;
+    transition: all 1s ease;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.box .scenary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: all 1s ease;
+    padding-bottom: 2px;
+}
+
+.box .scenary svg {
+    width: 20px;
+}
+
+.social {
+    margin-top: 15px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.social a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.youtube {
+    border: 2px solid black;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.youtube svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+}
+
+.instagram {
+    margin-left: 5px;
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.instagram svg {
+    width: 25px;
+    padding-top: 5px;
+    margin: 0 7px;
+}

@@ -1,0 +1,218 @@
+
+/* busket css */
+
+/* Responsive css */
+
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    .crd-txt {
+        padding: 16px;
+    }
+    .has-tooltip {
+        margin: 0 6px 16px;
+    } 
+    footer .copyright{
+        padding-left: 40rem;
+        padding-top: 15px;
+        }
+    .has-ultimae-tooltip .ultimate-tooltip{
+        transform: translate(-93px, -60.0506px);
+    }
+    .avatar-card {
+        height: 320px;
+        width: 280px;
+        
+    }
+  
+        
+
+}
+@media only screen and (min-width:768px) and (max-width: 992px){
+    .card-elements {
+        padding-top: 10px;
+    }
+    .hero-title {
+
+        padding-top: 181px;
+        padding-bottom: 145px;
+    }
+    .banner-card {
+        padding-bottom: 40px;
+    }
+    .has-tooltip {
+        margin: 0 2px 11px;
+    }
+    .space-control {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    footer .copyright {
+        padding-left: 24rem;
+        padding-top: 15px;
+    }
+    .outer-ul .inner-ul li:before {
+        display: none;
+    }
+    .experience-timeline .outer-ul .inner-ul li {
+        background-color: #e38443;
+    }
+    .outer-ul .inner-ul li h3 {
+        color:white;
+
+    }
+    .avatar-card {
+        height: 320px;
+        width: 280px;
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 768px){
+    .hero-title {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .card-elements {
+        padding-top: 10px;
+    }
+    .banner-card {
+        padding-bottom: 40px;
+    }
+    .beside-txt {
+        padding-top: 50px;
+    }
+    .space-control {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .has-tooltip {
+        margin: 0 2px 11px;
+    }
+    footer .copyright {
+        padding-left: 13rem;
+        padding-top: 15px;
+    }
+    .has-ultimae-tooltip .ultimate-tooltip{
+        transform: translate(-60%, -60.0506px);
+    }
+    .outer-ul .inner-ul li:before {
+        display: none;
+    }
+    .experience-timeline .outer-ul .inner-ul li {
+        background-color: #e38443;
+    }
+    .outer-ul .inner-ul li h3 {
+        color:white;
+
+    }
+    .avatar-card {
+        margin-bottom: 10px !important;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 576px){
+  
+    .hero-title {
+        padding-top: 135px;
+        padding-bottom: 100px;
+    }
+    .hero-header {
+        font-size: 25px;
+    }
+    .card-elements {
+        padding-top: 10px;
+    }
+    .crd-txt {
+        padding: 24px;
+    }
+    .crd-txt h3 {
+        font-size: 20px;
+
+    }
+    .crd-txt strong {
+        font-size: 12px;
+    }
+    .banner-card {
+
+        padding-bottom: 50px;
+    }
+    .has-tooltip {
+        margin: 0 4px 15px;
+    }
+    .space-control {
+        padding-top: 30px;
+    }
+    .beside-txt {
+        padding-top: 50px;
+    }
+    .skill-item {
+        padding-top: 80px;
+        padding-left: 15px;
+    }
+    .lg-btn button, .sm-btn button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .copyright {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+   
+    .experience-timeline .outer-ul .inner-ul:not(:last-of-type):nth-of-type(even):after {
+      
+        left: 0px;
+        
+    }
+    .experience-timeline .outer-ul .inner-ul li{
+        width:60px ;
+    }
+    .outer-ul .inner-ul li h3 {
+
+        padding-left: 0.2em;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+
+    }
+    
+
+    .has-ultimae-tooltip .ultimate-tooltip {
+        transform: translate(-76%, -60px);
+        padding: 0.4rem 0.5rem;
+        
+    
+    }
+    .has-ultimae-tooltip .left {
+        transform: translate(-10%, -60px);
+        padding: 0.4rem 0.5rem;
+        
+    
+    }
+    .has-ultimae-tooltip .middle {
+        transform: translate(-45%, -60px);
+        padding: 0.4rem 0.5rem;
+        
+    
+    }
+    .ultimate-tooltip-arrow {
+        top:-43px;
+    }
+    .experience-timeline .outer-ul {
+        padding-right: calc(15px + 12px);
+        padding-left: 0px;
+    }
+    .experience-timeline .outer-ul .inner-ul li{
+        width: 20%;
+    }
+    .outer-ul .inner-ul li:before {
+        display: none;
+    }
+    .experience-timeline .outer-ul .inner-ul li {
+        background-color: #e38443;
+    }
+    .avatar-card {
+        height: 320px;
+        width: 300px;
+        margin-top: 10px !important;
+    }
+    
+}
